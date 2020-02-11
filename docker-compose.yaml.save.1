@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+ webserver:
+  image: linuxserver/letsencrypt
+  container_name: nginx
+  cap_add:
+   - NET_ADMIN
+  environment:
+   - TZ=Europe/London
+   - URL=dreamingoftech.uk
+   - SUBDOMAINS=www,api
+   - EMAIL=stephenwatson2010@gmail.com
+   - DHLEVEL=2048
+   - VALIDATION=http
+  volumes:
+   - /web/nginx/config:/config
+  ports:
+   - 443:443
+   - 80:80
+  
+ mongodb:
+  image: mongo:latest
+  container_name: "mongodb"
+  environment:
+   - MONGO_DATA_DIR=/data/db
+   - MONGO_LOG_DIR=/dev/null
+  volumes:
+   - ./data/db:/data/db
+  ports:
+   - 27017:27017

@@ -1,0 +1,167 @@
+You were workin' as a waitress in a cocktail bar
+When I met you
+I picked you out, I shook you up and turned you around
+Turned you into someone new
+
+[
+    [
+        {
+            Letter: 'Y',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'W',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'W',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'A',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'A',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'W',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'I',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'A',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'C',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'B',
+            show: false,
+            delay: 0
+        }
+    ],
+    [
+        {
+            Letter: 'W',
+            show: false,
+            delay: 0
+        },{
+            Letter: 'I',
+            show: false,
+            delay: 0
+        },{
+            Letter: 'M',
+            show: false,
+            delay: 0
+        },{
+            Letter: 'Y',
+            show: false,
+            delay: 0
+        }
+    ],
+    [
+        {
+            Letter: 'I',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'P',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'Y',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'O',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'I',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'S',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'Y',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'U',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'A',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'T',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'Y',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'A',
+            show: false,
+            delay: 0
+        }        
+    ],
+    [
+        {
+            Letter: 'T',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'Y',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'I',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'S',
+            show: false,
+            delay: 0
+        },
+        {
+            Letter: 'N',
+            show: false,
+            delay: 0
+        }
+    ]    
+]

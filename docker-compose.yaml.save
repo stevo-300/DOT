@@ -1,0 +1,26 @@
+version: "3"
+
+serviceswebserver:
+		image: linuxserver/letsencrypt
+		name: nginx
+		cap_add:
+			- NET_ADMIN
+`		environment:
+			- TZ=Europe/London
+			- URL=dreamingoftech.uk
+			- SUBDOMAINS=www,api
+			- VALIDATION=http
+		volumes:
+			- ~/web/nginx/config:/config
+		ports:
+			- 443:443
+	mongodb:
+		image: mongo:latest
+		container_name: "mongodb"
+		environment:
+			- MONGO_DATA_DIR=/data/db
+			- MONGO_LOG_DIR=/dev/null
+		volumes:
+			- ./data/db:/data/db
+		ports:
+			- 27017:27017

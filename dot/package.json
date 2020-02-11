@@ -1,0 +1,48 @@
+{
+  "name": "dot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && npm run copyFiles",
+    "lint": "vue-cli-service lint",
+    "lintfix": "vue-cli-service lint --fix",
+    "copyFiles": "cp -r ~/web/dot/dist/* ~/web/nginx/config/www/",
+    "serverBuild": "nodemon npm run build",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "acorn": "^6.0.0",
+    "acorn-dynamic-import": "^4.0.0",
+    "bootstrap": "4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.26",
+    "core-js": "^2.6.5",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.10",
+    "vue-authenticate": "^1.4.1",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-pwa": "^3.8.0",
+    "@vue/cli-plugin-unit-mocha": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "mutationobserver-shim": "^0.3.3",
+    "nodemon": "^1.19.1",
+    "portal-vue": "^2.1.4",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

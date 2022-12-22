@@ -17,7 +17,7 @@
     "fastify-auth": "^0.6.0",
     "fastify-cors": "^3.0.0",
     "fastify-helmet": "^3.0.2",
-    "fastify-jwt": "^1.1.0",
+    "fastify-jwt": "^4.2.0",
     "fastify-leveldb": "^2.1.0",
     "fastify-mongoose": "^0.3.0",
     "mongoose": "^5.8.9"
